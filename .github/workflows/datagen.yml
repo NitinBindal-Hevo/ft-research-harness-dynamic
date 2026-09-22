@@ -1,0 +1,11 @@
+name: datagen-workflow
+on:
+  workflow_dispatch:
+jobs:
+  datagen-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "hello from datagen"
+      - name: Show date
+        run: date
